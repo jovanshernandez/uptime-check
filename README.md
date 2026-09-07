@@ -1,2 +1,11 @@
-# uptime-check
-A bash script that can be run daily or hourly depending on your environment to notify users if they have exceeded 14 days of uptime.
+# Uptime Check
+
+Bash utility for checking system uptime and notifying users when a machine has exceeded a defined uptime threshold.
+
+## Usage
+
+Run the script from cron, launchd, or another scheduler at the interval appropriate for the environment.
+
+## Notes
+
+Review the notification command and uptime threshold before deploying to managed systems.
